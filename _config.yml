@@ -37,7 +37,7 @@ flattr_button:
 
 # Build settings
 permalink: pretty 
-markdown:  KramdownPygments
+markdown:  Kramdown
 kramdown:
   auto_ids: true
   footnote_nr: 1
