@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/*
+
+  Blog
+  Non Copyable license
+
+*/
+
+
+body {
+  font-family: "freight-text-pro", "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+}
+
+p {
+  font-weight: 400;
+}
+
+.footnotes {
+  margin-top: 4em;
+}
+
+.pagination a, .pagination .disabled {
+  padding: 0.6em 1.7em;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 1.5em 0 0.6em;
+}
+
+a.site-title {
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-weight: 400 !important;
+  font-size: 60px !important;
+  background-image: none !important;
+}
+
+.site-title {
+  text-align: center;
+  display: block;
+  padding: 1.5rem 0 1.8rem 0;
+}
+
+.twitter-tweet .twitter-tweet-rendered {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 48em) {
+  .p,
+  p,
+  li {
+    font-size: 1.30rem;
+  }
+
+  .site-header .site-title {
+    padding: 1.5rem 0 1.0rem 0;
+  }
+}
