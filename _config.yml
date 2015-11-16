@@ -1,5 +1,5 @@
 # Site settings
-title:       spin ½
+title:       Amit Jain
 email:       hi@amitjain.me
 author:      Amit Jain
 description: "spindump of thoughts and ideas"
@@ -10,15 +10,15 @@ url:         "http://spinhalf.net"
 google_analytics:
 
 # Optional features
-animated:           true
+animated:           false
 show_related_posts: false
 show_post_footers:  false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname:
-facebook_comments: 
-facebook_appid: 
+facebook_comments:
+facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
@@ -36,7 +36,7 @@ paypal_url:
 flattr_button:
 
 # Build settings
-permalink: pretty 
+permalink: pretty
 markdown:  Kramdown
 kramdown:
   auto_ids: true

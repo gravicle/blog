@@ -6,13 +6,35 @@
 
 */
 
+$header-color: #FFF;
+$font: 'proxima nova', sans-serif;
+$font-weight-body: 400;
+$font-weight-title: 600;
+$font-weight-light: 100;
+
+.site-header {
+  height: 180px;
+  background: $header-color;
+  margin-top: 0em;
+}
+
+.site-header .mt2 {
+  margin-top: 0rem;
+  padding-top: 5rem;
+
+}
 
 body {
-  font-family: "freight-text-pro", "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: $font;
 }
 
 p {
-  font-weight: 400;
+  font-weight: $font-weight-body;
+}
+
+.post-meta {
+  font-weight: $font-weight-light;
+  font-size: 1.0rem;
 }
 
 .footnotes {
@@ -35,23 +57,15 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 900;
-  line-height: 1.2;
-  margin: 1.5em 0 0.6em;
+  font-family: $font;
+  font-weight: $font-weight-title;
 }
 
 a.site-title {
-  font-family: 'UnifrakturMaguntia', cursive;
+  font-family: $font;
   font-weight: 400 !important;
   font-size: 60px !important;
   background-image: none !important;
-}
-
-.site-title {
-  text-align: center;
-  display: block;
-  padding: 1.5rem 0 1.8rem 0;
 }
 
 twitter-tweet, .twitter-tweet-rendered {
@@ -65,99 +79,22 @@ pre {
   border-radius: 8.0px;
 }
 
-.site-header .site-nav {
-    margin-top: 0.666em;
-    margin-bottom: 1.333em;
+@media screen and (max-width: 48em) {
+  h2, .h2 {
+    font-size: 1.4rem;
   }
-
-@media screen and (min-width: 48em) {
-  .p,
-  p,
-  li {
-    font-size: 1.30rem;
-  }
-
-  .site-header .site-title {
-    float: center;
-  }
-
-  .site-header .site-title {
-    padding: 1.5rem 0 1.0rem 0;
-  }
-
-  .h1,
-  h1 {
-    font-size: 3.250rem;
-  }
-
-  .h2,
-  h2 {
-    font-size: 2.298rem;
-  }
-
-  .h3,
-  h3 {
-    font-size: 1.625rem;
-  }
-
-  .h4,
-  h4 {
-    font-size: 1.150rem;
-  }
-
-  .p,
-  p,
-  li {
-    font-size: 1.25rem;
-    line-height: 1.8;
-  }
-
 }
 
-@media screen and (max-width: 48em) {
-
-  .h1,
-  h1 {
-    font-size: 2.827rem;
+@media screen and (min-width: 48em) {
+  h2, .h2 {
+    font-size: 1.75rem;
   }
-
-  .h2,
-  h2 {
-    font-size: 1.999rem;
-  }
-
-  .h3,
-  h3 {
-    font-size: 1.413rem;
-  }
-
-  .h4,
-  h4 {
-    font-size: 1rem;
-  }
-
 }
 
 @media screen and (min-width: 64em) {
 
-  .h1,
-  h1 {
-    font-size: 4.498rem;
+  h2, .h2 {
+    font-size: 1.9rem;
   }
 
-  .h2,
-  h2 {
-    font-size: 3.18rem;
-  }
-
-  .h3,
-  h3 {
-    font-size: 2.249rem;
-  }
-
-  .h4,
-  h4 {
-    font-size: 1.591rem;
-  }
-  
 }

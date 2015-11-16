@@ -5,7 +5,7 @@ date: 2014-01-05 10:23:21.000000000 -06:00
 summary: While TestFlight is an incredibly useful service, it has been a bit of a skirmish for me to get around. The workflow can be very convoluted. I am not sure it is my own dense brain or the process is indeed intricate. So, I wanted to write a guide for my own reference and for new developers.
 ---
 
-**UPDATE**: This document referes to TestFlight, the service found at [www.testflightapp.com](https://www.testflightapp.com/) and not Apple's beta testing service, [TestFlight Beta Testing](https://developer.apple.com/testflight/)
+**UPDATE**: This document refers to TestFlight, the service found at [www.testflightapp.com](https://www.testflightapp.com/) and not Apple's beta testing service, [TestFlight Beta Testing](https://developer.apple.com/testflight/)
 <br />
 
 <p>While <a href="http://help.testflightapp.com/customer/portal/articles/1352859-getting-started-as-a-developer">TestFlight</a> is an incredibly useful service, it has been a bit of a skirmish for me to get around. The workflow can be very convoluted. I am not sure it is my own dense brain or the process is indeed intricate. So, I wanted to write a guide for my own reference and for new developers.</p>
