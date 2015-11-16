@@ -65,6 +65,19 @@ pre {
   border-radius: 8.0px;
 }
 
+@media screen and (min-width: 64em) {
+
+  .h1,
+  h1 {
+    font-size: 4.498rem;
+  }
+
+  .h2,
+  h2 {
+    font-size: 3.18rem;
+  }
+}
+
 @media screen and (min-width: 48em) {
   .p,
   p,
@@ -74,5 +87,28 @@ pre {
 
   .site-header .site-title {
     padding: 1.5rem 0 1.0rem 0;
+  }
+
+  .h1,
+  h1 {
+    font-size: 3.250rem;
+  }
+
+  .h2,
+  h2 {
+    font-size: 2.298rem;
+  }
+}
+
+@media screen and (max-width: 48em) {
+
+  .h1,
+  h1 {
+    font-size: 2.827rem;
+  }
+  
+ .h2,
+  h2 {
+    font-size: 1.999rem;
   }
 }
