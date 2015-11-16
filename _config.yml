@@ -1,39 +1,61 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       spin ½
+email:       hi@amitjain.me
+author:      Amit Jain
+description: "spindump of thoughts and ideas"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://spinhalf.net"
 
 # Google analytics
 google_analytics:
 
 # Optional features
-animated:           false
+animated:           true
 show_related_posts: false
 show_post_footers:  false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname:
+facebook_comments: 
+facebook_appid: 
+facebook_comments_number: 10
 
 # Social icons
 show_social_icons: false
-github_username:
+github_username: gravicle
+bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: gravicle
 google_plus_id:
 linkedin_username:
+angellist_username:
+medium_id:
 bitcoin_url:
 paypal_url:
 flattr_button:
 
 # Build settings
-markdown:     redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
+permalink: pretty 
+markdown:  KramdownPygments
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  syntax_highlighter: rouge
 permalink:    pretty
-paginate:     3
+gems: [jekyll-paginate]
+paginate:     20
 sass:
   compressed: true
+
+# FTP
+ftp_host: 'ftp.culturedpixel.com'
+ftp_dir: '/spinhalf'
+ftp_passive: false
+ftp_port: 21
+ftp_username: 'gravicle@culturedpixel.com'
+ftp_password: 'principia'
