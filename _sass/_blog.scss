@@ -65,19 +65,6 @@ pre {
   border-radius: 8.0px;
 }
 
-@media screen and (min-width: 64em) {
-
-  .h1,
-  h1 {
-    font-size: 4.498rem;
-  }
-
-  .h2,
-  h2 {
-    font-size: 3.18rem;
-  }
-}
-
 @media screen and (min-width: 48em) {
   .p,
   p,
@@ -98,6 +85,24 @@ pre {
   h2 {
     font-size: 2.298rem;
   }
+
+  .h3,
+  h3 {
+    font-size: 1.625rem;
+  }
+
+  .h4,
+  h4 {
+    font-size: 1.150rem;
+  }
+
+  .p,
+  p,
+  li {
+    font-size: 1.25rem;
+    line-height: 1.8;
+  }
+
 }
 
 @media screen and (max-width: 48em) {
@@ -106,9 +111,44 @@ pre {
   h1 {
     font-size: 2.827rem;
   }
-  
- .h2,
+
+  .h2,
   h2 {
     font-size: 1.999rem;
   }
+
+  .h3,
+  h3 {
+    font-size: 1.413rem;
+  }
+
+  .h4,
+  h4 {
+    font-size: 1rem;
+  }
+
+}
+
+@media screen and (min-width: 64em) {
+
+  .h1,
+  h1 {
+    font-size: 4.498rem;
+  }
+
+  .h2,
+  h2 {
+    font-size: 3.18rem;
+  }
+
+  .h3,
+  h3 {
+    font-size: 2.249rem;
+  }
+
+  .h4,
+  h4 {
+    font-size: 1.591rem;
+  }
+  
 }
