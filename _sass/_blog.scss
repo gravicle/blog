@@ -7,8 +7,11 @@
 */
 
 $header-color: #FFF;
-$font: 'proxima nova', sans-serif;
+
+$body-color: #404040;
+$font: "adriane", serif;
 $font-weight-body: 400;
+
 $font-weight-title: 600;
 $font-weight-light: 100;
 
@@ -30,6 +33,12 @@ body {
 
 p {
   font-weight: $font-weight-body;
+}
+
+p,
+.post-link .post-title,
+.pagination a, .pagination .disabled {
+  color: $body-color;
 }
 
 .post-meta {
@@ -80,21 +89,37 @@ pre {
 }
 
 @media screen and (max-width: 48em) {
+
   h2, .h2 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
+
 }
 
 @media screen and (min-width: 48em) {
+
   h2, .h2 {
     font-size: 1.75rem;
   }
+
+  .posts .post:last-child {
+    border-bottom: none;
+    margin-bottom: .333em;
+    padding-bottom: 0;
+  }
+
 }
 
 @media screen and (min-width: 64em) {
 
   h2, .h2 {
     font-size: 1.9rem;
+  }
+
+  .posts .post {
+    margin-bottom: 1.5em;
+    padding-bottom: 0.6em;
+    border-bottom: thin solid #f3f3f3;
   }
 
 }
