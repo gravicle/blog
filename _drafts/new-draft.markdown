@@ -5,3 +5,10 @@ layout: post
 summary: 
 ---
 
+This is a code block
+
+```swift
+for x in 0 ..< 100 {
+    print(x)
+}
+```
