@@ -1,19 +1,11 @@
 ---
 layout: page
-title: About Pixyll
-permalink: /about/
+title: Hello!
+permalink: /hello/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+I am an iOS engineer currently making health-care more accessible at [Circle Medical](http://www.circlemedical.co). I love solving problems and learning new things.
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+You can say hi on Twitter [@gravicle](https://twitter.com/gravicle) or send me an email(hi at my name dot me).
 
-Thanks to the following:
-
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
+Thanks for taking the time to read.
