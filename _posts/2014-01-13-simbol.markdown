@@ -1,0 +1,27 @@
+---
+layout: post
+title: Simbol
+date: 2014-01-13 11:06:30.000000000 -06:00
+summary: Yesterday I launched Simbol, an app to quickly find and use symbols and special characters on the iPhone.
+---
+Yesterday I launched <a href="http://culturedpixel.com/simbol/"><strong>Simbol</strong></a>, an app to quickly find and use symbols and special characters on the iPhone. I developed the app to address one of the most annoying things about writing on iOS: finding symbols. I am a mathematics major and also study quite a lot of physics. Both require a <em>very</em> frequent use of symbols and characters which aren't found on QWERTY keyboards. OS X has a very handy keyboard and character viewer that carries a big chunk of the Unicode library. However, iOS has nothing that comes even remotely close. I created a library of LaTeX snippets in TextExpander but that mostly <a href="http://smilesoftware.com/blog/entry/how-ios-7-affects-textexpander-touch">went away</a> with iOS 7. As a result, I am practically unable to take notes on iOS in most of my classes
+
+
+I wasn't sure that there were many people, besides myself, who would find something like this useful. However, the response from friends and new users has been great and you all seem to like the app<sup id="fnref-759:fn-1"><a href="#fn-759:fn-1" rel="footnote">1</a></sup>. I am glad! Looking at most of the user feedback, I believe it would help to know the direction <em>Simbol</em> is headed in.
+
+This brings us to the motive of <em>Simbol</em>: <strong>Simbol is intended to be <em>the</em> Keyboard And Character Viewer for iOS</strong>. This involves bringing the app on par with OS X. That is an enormous number of entities for the current design to efficiently support. Thus, I am already working on rethinking the workflow. That's all I can say today.
+
+<em>Simbol</em> is something I created to address one of my pains of writing and working on iOS. It is really great to know that others find it useful. I can't wait to share what's in the works!
+
+I would love to hear what you think, or if you have any feature requests. You can always find me on twitter: <a href="https://twitter.com/gravicle">@gravicle</a>, or email me <a href="mailto:gravicle@gmail.com">here</a>.
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn-759:fn-1">
+Gabe at <a href="http://www.macdrifter.com/2014/01/simbol-for-iphone.html">Macdrifter</a> and Viticci at <a href="http://www.macstories.net/reviews/simbol-for-iphone/">MacStories</a> even reviewed the app! I did <em>not</em> expect that to happen!&#160;<a href="#fnref-759:fn-1" rev="footnote">&#8617;</a>
+</li>
+
+</ol>
+</div>
