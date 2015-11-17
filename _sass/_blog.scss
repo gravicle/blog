@@ -6,29 +6,41 @@
 
 */
 
-$header-color: #FFF;
+$header-background-color: #111D28;
+$body-background-color: #FAFCFF;
+$footer-background-color: #FFFFFF;
+$site-title-color: #FFFFFF;
+$body-color: #111D28;
+$link-color: #2A75C1;
 
-$body-color: #404040;
+$headline-font: "adriane", serif;
 $font: "adriane", serif;
 $font-weight-body: 400;
 
-$font-weight-title: 600;
+$font-weight-title: 500;
+$font-weight-subtitle: 400;
 $font-weight-light: 100;
 
 .site-header {
-  height: 180px;
-  background: $header-color;
+  height: 220px;
+  background: $header-background-color;
   margin-top: 0em;
+  margin-bottom: 3rem;
+  text-align: left !important;
+
+  border-bottom-width: 1.0px;
+  border-bottom-color: $body-color;
+  border-bottom-style: dotted;
 }
 
 .site-header .mt2 {
   margin-top: 0rem;
-  padding-top: 5rem;
-
+  padding-top: 2.5rem;
 }
 
 body {
   font-family: $font;
+  background-color: $body-background-color;
 }
 
 p {
@@ -43,11 +55,24 @@ p,
 
 .post-meta {
   font-weight: $font-weight-light;
-  font-size: 1.0rem;
+  line-height: 1.2rem;
+}
+
+.post-header h2 {
+  margin-right: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.p-responsive {
+  padding-top: 1.0rem;
 }
 
 .footnotes {
   margin-top: 4em;
+}
+
+.footer, footer .wrap {
+  background-color: $footer-background-color;
 }
 
 .pagination a, .pagination .disabled {
@@ -66,15 +91,43 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: $font;
+  font-family: $headline-font;
   font-weight: $font-weight-title;
+  margin: 0.5em 0 0.5em;
+}
+
+a {
+  color: $link-color;
 }
 
 a.site-title {
+  text-align: left !important;
   font-family: $font;
   font-weight: 400 !important;
-  font-size: 60px !important;
+  font-size: 2.5rem !important;
   background-image: none !important;
+  color: $site-title-color;
+}
+
+.site-meta {
+  text-align: left !important;
+  margin-top: 30px;
+}
+
+p.site-meta-title {
+  font-family: $font;
+  font-weight: $font-weight-subtitle;
+  font-size: 1.0rem;
+  color: $site-title-color;
+  line-height: 0.8em;
+}
+
+.site-header {
+  color: $site-title-color;
+}
+
+.site-header .site-title {
+  float: none !important;
 }
 
 twitter-tweet, .twitter-tweet-rendered {
@@ -90,13 +143,25 @@ pre {
 
 @media screen and (max-width: 48em) {
 
+  h1, .h1 {
+    font-size: 1.6rem;
+  }
+
   h2, .h2 {
     font-size: 1.5rem;
+  }
+
+  .post-meta {
+    font-size: 0.8rem;
   }
 
 }
 
 @media screen and (min-width: 48em) {
+
+  h1, .h1 {
+    font-size: 2.0rem;
+  }
 
   h2, .h2 {
     font-size: 1.75rem;
@@ -108,9 +173,17 @@ pre {
     padding-bottom: 0;
   }
 
+  .post-meta {
+    font-size: 0.9rem;
+  }
+
 }
 
 @media screen and (min-width: 64em) {
+
+  h1, .h1 {
+    font-size: 2.5rem;
+  }
 
   h2, .h2 {
     font-size: 1.9rem;
@@ -120,6 +193,10 @@ pre {
     margin-bottom: 1.5em;
     padding-bottom: 0.6em;
     border-bottom: thin solid #f3f3f3;
+  }
+
+  .post-meta {
+    font-size: 1.0rem;
   }
 
 }

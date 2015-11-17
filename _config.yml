@@ -47,7 +47,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 permalink:    pretty
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, ]
 paginate:     20
 sass:
   compressed: true
