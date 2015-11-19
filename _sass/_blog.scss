@@ -25,8 +25,11 @@ $font-weight-light: 300;
 $font-size-body: 1.30rem;
 $font-size-body-mobile: 1.20rem;
 
-$font-size-headline: 1.7rem;
+$font-size-headline: 2.0rem;
 $font-size-headline-mobile: 1.6rem;
+
+$font-size-sub-headline: 1.5rem;
+$font-size-sub-headline-mobile: 1.3rem;
 
 $font-size-post-meta: 1.0rem;
 $font-size-post-meta-mobile: 0.9rem;
@@ -188,7 +191,11 @@ pre {
 @media screen and (max-width: 48em) {
 
   h1, .h1, h2, .h2 {
-    font-size: $font-size-body-mobile;
+    font-size: $font-size-headline-mobile;
+  }
+
+  h3, .h3 {
+    font-size: $font-size-sub-headline-mobile;
   }
 
   .post-meta {
@@ -209,6 +216,10 @@ pre {
 
   h1, .h1, h2, .h2 {
     font-size: $font-size-headline;
+  }
+
+  h3, .h3 {
+    font-size: $font-size-sub-headline;
   }
 
   .posts .post:last-child {
