@@ -4,6 +4,7 @@ date: 2015-11-18 22:40:06 -0600
 layout: post
 summary: Routine-level design very directly impacts the quality and complexity of code. The delineation between Functions and Methods can be helpful in structuring code and making things more readable.
 tags: code-complete, functions, architecture
+crosspost_to_medium: true
 ---
 
 > Use a function if the primary purpose of the routine is to return the value indicated by the function name. Otherwise, use a procedure.
