@@ -137,6 +137,11 @@ h3.h2.post-title, .post-header h2 {
   color: $body-color;
 }
 
+h3, .h3 {
+  margin-top: 2.0rem;
+  margin-bottom: 0.75rem;
+}
+
 a {
   color: $accent-color;
 }
