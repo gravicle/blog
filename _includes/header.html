@@ -1,19 +1,21 @@
 <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
-      <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
-      <div class="site-meta">
-        <p class="site-meta-title">iOS Engineer.</p>
-        <p class="site-meta-title">Learning Swift.</p>
-        <p class="site-meta-title">Reading Code Complete 2, again.</p>
+      <div class="insert">
+        <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
+        <div class="site-meta">
+          <p class="site-meta-title">iOS Engineer</p>
+          <p class="site-meta-title">Learning Swift</p>
+          <p class="site-meta-title">Rereading Code Complete 2</p>
+          <p class="site-meta-title"><a href="https://twitter.com/{{ site.twitter_username }}">@gravicle</a></p>
+        </div>
+        <!-- <nav class="site-nav right">
+          {% include navigation.html %}
+        </nav> -->
+        {% if site.show_social_icons %}
+          {% include social_links.html %}
+        {% endif %}
       </div>
-      <!-- <nav class="site-nav right">
-        {% include navigation.html %}
-      </nav> -->
-      <div class="clearfix"></div>
-      {% if site.show_social_icons %}
-        {% include social_links.html %}
-      {% endif %}
     </div>
   </div>
 </header>
