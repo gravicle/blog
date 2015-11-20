@@ -49,7 +49,7 @@ kramdown:
   syntax_highlighter_opts:
       wrap: true
 permalink:    pretty
-gems: [jekyll-paginate, ]
+gems: [ jekyll-paginate, jekyll-twitter-plugin ]
 paginate:     20
 sass:
   compressed: true
@@ -61,3 +61,11 @@ ftp_passive: false
 ftp_port: 21
 ftp_username: 'gravicle@culturedpixel.com'
 ftp_password: 'principia'
+
+# Twitter
+
+twitter:
+  consumer_key: CUQmympW4xp4ckaeUpps64bL7
+  consumer_secret: m8DHULDemKVTHek1Bpjv9DxlPcLoCysj62htpYyD7FlBPkp2oo
+  access_token: 34050619-jNMNKx9wup4l5xmaeZaI2v9DXpY82l2H5d52Z6UEA
+  access_token_secret: Jx3hHeCaZMY6cONdMkYHX8dEzYH0npfoxdCY5aBSPKoOx
